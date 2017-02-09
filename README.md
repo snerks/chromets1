@@ -1,5 +1,23 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+To create an application that supports Typescript, use [Create React App Typescript](https://github.com/wmonk/create-react-app-typescript).
+
+## tl;dr
+
+```sh
+npm install -g create-react-app
+
+create-react-app my-app --scripts-version=react-scripts-ts
+cd my-app/
+npm start
+```
+
+The [Chrome Debugger Extension](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) for [Visual Studio Code](https://code.visualstudio.com/) has been configured to allow debugging in VS Code.
+(See the file called ./vscode/launch.json)
+
+*Note: An attempt to also launch Developer Tools (F12) in the launched Chrome instance causes the debugging session to end.*
+*At the time of writing, Chrome supports only one attached debugger.*
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
